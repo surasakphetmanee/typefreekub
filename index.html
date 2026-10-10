@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TypeFreeKub — พิมพ์ผิดแป้นไทย/อังกฤษ แก้ให้เองทันที</title>
+<meta name="description" content="แอปเมนูบาร์สำหรับ Mac แก้คำที่พิมพ์ผิดแป้นไทย/อังกฤษให้อัตโนมัติ ทำงานในเครื่อง ไม่ส่งข้อมูลออก">
+<style>
+  :root { --bg:#f7f8fb; --fg:#1b1f2a; --muted:#5b6170; --accent:#1c5ad9; --card:#fff; --border:#e3e6ee; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1218; --fg:#e8eaf0; --muted:#9aa1b2; --accent:#6ea0ff; --card:#171b24; --border:#262b37; } }
+  * { box-sizing:border-box } body { margin:0; font:17px/1.6 -apple-system, "SF Pro Text", "Sukhumvit Set", "Thonburi", system-ui, sans-serif; background:var(--bg); color:var(--fg) }
+  main { max-width:760px; margin:0 auto; padding:56px 20px 80px }
+  h1 { font-size:40px; line-height:1.15; margin:0 0 12px } h2 { font-size:22px; margin:40px 0 10px }
+  .lead { font-size:20px; color:var(--muted) }
+  .cta { display:inline-block; margin:22px 0 8px; padding:14px 22px; background:var(--accent); color:#fff; border-radius:12px; text-decoration:none; font-weight:600 }
+  .small { font-size:14px; color:var(--muted) }
+  .demo { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px 20px; font-family:"SF Mono", Menlo, monospace; font-size:17px }
+  .demo span { color:var(--accent) }
+  ul { padding-left:22px } li { margin:6px 0 }
+  kbd { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:1px 6px; font-family:inherit }
+  footer { margin-top:56px; font-size:14px; color:var(--muted) } a { color:var(--accent) }
+</style>
+</head>
+<body>
+<main>
+  <h1>TypeFreeKub</h1>
+  <p class="lead">ลืมสลับแป้นไทย/อังกฤษ? พิมพ์ต่อไปได้เลย แอปจะแก้คำให้และสลับแป้นให้เอง ทำงานในเครื่อง 100% ไม่มีการส่งข้อมูลออก</p>
+  <a class="cta" href="https://github.com/surasakphetmanee/typefreekub-site/releases/latest">ดาวน์โหลดสำหรับ macOS 13+</a>
+  <p class="small">ฟรี · Apple Silicon และ Intel · แจกจ่ายโดยตรง (notarized โดย Apple) ไม่ผ่าน App Store เพราะแอปต้องใช้สิทธิ์ที่ App Store ไม่อนุญาต</p>
+
+  <div class="demo">
+    พิมพ์ <span>l;ylfu</span> แล้วกด Space → <span>สวัสดี</span> และแป้นสลับเป็นไทย<br>
+    พิมพ์ <span>้ำสสน</span> แล้วกด Space → <span>hello</span> และแป้นสลับเป็นอังกฤษ
+  </div>
+
+  <h2>ทำงานอย่างไร</h2>
+  <ul>
+    <li>ดูคำที่คุณเพิ่งพิมพ์ แล้วเทียบกับพจนานุกรมไทย 60,000 คำ และอังกฤษ 63,000 คำ ถ่วงน้ำหนักด้วยความถี่การใช้จริง</li>
+    <li>แก้ให้เฉพาะเมื่อคำที่แปลงแล้วเป็นคำจริง ส่วนคำเดิมไม่ใช่ ถ้าไม่แน่ใจจะไม่แตะ</li>
+    <li><kbd>⌃⌘Z</kbd> ย้อนกลับทันที และคำนั้นจะไม่ถูกแก้อีก · <kbd>⌃⌘X</kbd> สั่งแปลงคำล่าสุดเองได้ทุกเมื่อ</li>
+    <li>ใช้ได้กับทุกแอป: TextEdit, Notes, Safari, Chrome, LINE, Slack, Word…</li>
+  </ul>
+
+  <h2>ความเป็นส่วนตัว</h2>
+  <ul>
+    <li>แอปต้องขอสิทธิ์ Accessibility และ Input Monitoring เพื่อรู้ว่าคุณพิมพ์คำอะไรบนแป้นไหน</li>
+    <li>ไม่มีการเชื่อมต่ออินเทอร์เน็ต ยกเว้นการตรวจสอบอัปเดตเวอร์ชัน · ไม่มี analytics · ไม่บันทึกสิ่งที่พิมพ์ลงดิสก์</li>
+    <li>ไม่ทำงานในช่องรหัสผ่าน และเมื่อ Secure Input เปิดอยู่ (เช่น Terminal)</li>
+    <li>โค้ดเปิดให้ตรวจสอบได้ — <a href="privacy.html">นโยบายความเป็นส่วนตัวฉบับเต็ม</a></li>
+  </ul>
+
+  <h2>ติดตั้ง</h2>
+  <ol>
+    <li>ดาวน์โหลด แตกไฟล์ ลาก TypeFreeKub ไปไว้ใน Applications แล้วเปิด</li>
+    <li>ทำตามหน้าต่างตั้งค่า 3 ขั้นตอน (เปิดแป้นไทย+อังกฤษ, ให้สิทธิ์ 2 อย่าง)</li>
+    <li>เปิด TextEdit พิมพ์ <kbd>l;ylfu</kbd> แล้วกด Space</li>
+  </ol>
+
+  <footer>© 2026 Surasak Phetmanee · <a href="https://github.com/surasakphetmanee/typefreekub-site">Source on GitHub</a></footer>
+</main>
+</body>
+</html>
