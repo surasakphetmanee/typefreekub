@@ -3,13 +3,29 @@
     <channel>
         <title>TypeFreeKub</title>
         <item>
+            <title>1.1.5</title>
+            <pubDate>Tue, 13 Oct 2026 04:40:27 +0700</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub-1.1.5.zip" length="2867906" type="application/octet-stream" sparkle:edSignature="pqhk/SRdzn6Y75Com5bHYJU5+oEJA53413Y5MtVAHUg5sJno3Mr+HW3zgk3CZelMH1hU3c1tS3p2/ARyTBGlBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub21-20.delta" sparkle:deltaFrom="20" length="99266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RvROgDrxKs2OZK9e8cvQDFeG4Njx2MBS5JcEJvroXnCs0j82Pw62g9YsfuE9TTszzYb6XoPuav6Xmy7sNcl2Cg=="/>
+                <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub21-19.delta" sparkle:deltaFrom="19" length="105334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2L0gCO9RrioNxsTP3lSF9yLIRDyiYwY/CkFwuWrhqkiSYNzkFh/zlazY6XtUA5QXspuMJ+jb02RyM2T/fp0RCw=="/>
+                <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub21-18.delta" sparkle:deltaFrom="18" length="118642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QpV76koWUIOCHijQywnUE4T+6891JG3xK/jSn1GXqnUUXBaoEAGxcD0yxpf7Nf9NOaX7Q/RyYrulgyiG5obwCg=="/>
+                <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub21-17.delta" sparkle:deltaFrom="17" length="118654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HcyBr7MKM3oovJIucyi6NHuj1rRYY4JsSb0GO99Uk3eXEFHp57LLY8YYyRwyXraGqmOZfh5QPV7hbOfDv8k0AQ=="/>
+                <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub21-16.delta" sparkle:deltaFrom="16" length="118834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VAxP3I3eBvj3Lcn8F+dvTZw5J28LS8lDNEoXYzXDDKg9re9jh2GEnM0fMZ7Itn7lwuFjac3IAdDv3/Bx/6wLDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1.4</title>
             <pubDate>Tue, 13 Oct 2026 01:09:03 +0700</pubDate>
             <sparkle:version>20</sparkle:version>
             <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.4/TypeFreeKub-1.1.4.zip" length="2838090" type="application/octet-stream" sparkle:edSignature="vtDDqrbW7YyqC7uT/PO4wB/OXeAg9mfhvmbkltcPLpERrks9Wc8htYSQiVgI9MHrLb2ERluWJc7YnJchAznaDw=="/>
+            <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub-1.1.4.zip" length="2838090" type="application/octet-stream" sparkle:edSignature="vtDDqrbW7YyqC7uT/PO4wB/OXeAg9mfhvmbkltcPLpERrks9Wc8htYSQiVgI9MHrLb2ERluWJc7YnJchAznaDw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.4/TypeFreeKub20-19.delta" sparkle:deltaFrom="19" length="48538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZRIXkv+4EiAGIsQmOHLha/AbM+J+bxBF9CG3JPjxEgdgnnz7otpEc6E3CMPBZ51ZnegESguJ8kikniXTmEE2DQ=="/>
                 <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.4/TypeFreeKub20-18.delta" sparkle:deltaFrom="18" length="70462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lKlloTi700V1JRXThHkkSnT1ZAc7i73zh2n/nJICOFpkcSseVa1fHVYvWSvJbBo5waN9MNoN7FJ9X83OctaNAw=="/>
@@ -24,24 +40,11 @@
             <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.4/TypeFreeKub-1.1.3.zip" length="2836511" type="application/octet-stream" sparkle:edSignature="HqIFvCXV1wA3+wvhRA3U4WxH75UPXk+J9lZE6FG8X425ldFVAJdKy4NA3BB2Usymr4iCB5vGfuXMs2BpsTpdDg=="/>
+            <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.5/TypeFreeKub-1.1.3.zip" length="2836511" type="application/octet-stream" sparkle:edSignature="HqIFvCXV1wA3+wvhRA3U4WxH75UPXk+J9lZE6FG8X425ldFVAJdKy4NA3BB2Usymr4iCB5vGfuXMs2BpsTpdDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.3/TypeFreeKub19-18.delta" sparkle:deltaFrom="18" length="65462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LC+MOxR80XGDB31ig7khLOr3XZTKBEWyMz6xILxSzAn3Xs2XQ6sgIcv84lOY65fOG4A9Nd6S1GrJ5xA2zqVIDw=="/>
                 <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.3/TypeFreeKub19-17.delta" sparkle:deltaFrom="17" length="66286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wWkuQihZRwjv+ekeoaKt1zlDMFk07GDhnIcEWJrcn0ou+QMPfeAM8haxITFhG2EyVRBR+OH6GEh7qfTlNXwFBQ=="/>
                 <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.3/TypeFreeKub19-16.delta" sparkle:deltaFrom="16" length="66218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QKvb6tITNFiG7h3wAYqV1DgSurt72vfgaBOx3MwF0CSdqORJZ7iNgzu0seItwtiwE5lfiBwXWfUBBtiqzEr3BQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.1.2</title>
-            <pubDate>Sat, 10 Oct 2026 13:11:08 +0700</pubDate>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.4/TypeFreeKub-1.1.2.zip" length="2832751" type="application/octet-stream" sparkle:edSignature="Q3Avo960wRBHKDnjyPDvtopZ8Mww9TZYLjU4j4v4Zim1nPwL+aD9+wp1GbRcDoagdUxBvAR9n8R0Kq5GCItBBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.2/TypeFreeKub18-17.delta" sparkle:deltaFrom="17" length="12226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J9HXRSjzZKV8FGuYLX3ch+qAKcJ8NFVN6eulqFHLHSpl6YesLNVrtHZi6UocQUyQpVU5cce9osXgEdtl8p8LAA=="/>
-                <enclosure url="https://github.com/surasakphetmanee/typefreekub/releases/download/v1.1.2/TypeFreeKub18-16.delta" sparkle:deltaFrom="16" length="12118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5y2vcLwamx3iliF21mRqHw6q7HA+fsIsjy3miCvuSfYi3Hg3krVLq66htRkgOpflzTF9c+PjIASWTBxJA9D+DA=="/>
             </sparkle:deltas>
         </item>
     </channel>
